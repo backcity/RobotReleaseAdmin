@@ -1,0 +1,131 @@
+html, body, #app {
+  margin: 0;
+  height: 100%;
+  background: #f5f7fa;
+  color: #303133;
+}
+
+.shell {
+  min-height: 100%;
+}
+
+.aside {
+  background: #001529;
+  color: #fff;
+}
+
+.brand {
+  height: 56px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  font-size: 16px;
+  font-weight: 650;
+  letter-spacing: 0.04em;
+}
+
+.aside .el-menu {
+  border-right: 0;
+}
+
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  border-bottom: 1px solid #e4e7ed;
+}
+
+.top-title {
+  color: #606266;
+}
+
+.top-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.aside .el-menu-item-group__title {
+  color: #ffffff73;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.app-card {
+  height: 100%;
+  margin-bottom: 16px;
+}
+
+.latest {
+  margin: 8px 0 0;
+  font-size: 22px;
+  font-weight: 650;
+}
+
+.muted {
+  color: #909399;
+}
+
+.sha {
+  font-family: Consolas, monospace;
+  font-size: 12px;
+}
+
+.notes {
+  white-space: pre-wrap;
+}
+
+.login-wrap {
+  min-height: 100%;
+  display: grid;
+  place-items: center;
+  background:
+    radial-gradient(circle at top left, #d9ecff, transparent 36%),
+    #f5f7fa;
+}
+
+.login-card {
+  width: 420px;
+}
+
+.chart {
+  height: 320px;
+}
+
+.url-line {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.url-line .el-input {
+  flex: 1;
+}
+
+.notes-html p {
+  margin: 0 0 8px;
+}
+
+.preview {
+  min-height: 96px;
+  padding: 8px 12px;
+  border: 1px solid #e4e7ed;
+  border-radius: 4px;
+  background: #fafafa;
+}

@@ -1,0 +1,17 @@
+{
+  "name": "robot-release-admin",
+  "private": true,
+  "workspaces": [
+    "server",
+    "web"
+  ],
+  "scripts": {
+    "dev": "concurrently -n server,web -c blue,magenta \"npm run dev -w server\" \"npm run dev -w web\"",
+    "build": "npm run build -w web",
+    "start": "npm run build && npm run start -w server",
+    "test": "npm test -w server"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

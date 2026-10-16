@@ -1,0 +1,9 @@
+{
+  "port": 5088,
+  "dataRoot": "data",
+  "token": "change-me",
+  "users": [
+    { "userName": "admin", "password": "change-me", "role": "admin" },
+    { "userName": "operator", "password": "change-me", "role": "operator" }
+  ]
+}
